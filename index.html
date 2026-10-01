@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Carbon Connect — Campus sustainability and carbon footprint tracking platform">
+    <title>Carbon Connect</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@500;600;700&family=Grand+Hotel&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Scroll driver -->
+    <div id="scroll-container"></div>
+
+    <!-- Fixed overlay -->
+    <div id="overlay">
+        <!-- Top-right navigation -->
+        <nav id="landing-nav">
+            <button class="landing-nav-btn landing-nav-btn--primary" id="nav-enter">Enter</button>
+        </nav>
+
+        <!-- Three.js canvas injected here -->
+        <div id="canvas-container"></div>
+
+        <!-- Title text — emerges from behind Earth -->
+        <h1 id="title-text">CARBON CONNECT</h1>
+
+        <!-- Info cards (one visible at a time) -->
+        <div id="card-container">
+            <div class="info-card" id="card1">
+                <h2>Measure Your<br>Impact</h2>
+                <div class="card-sub">
+                    <span>Track your carbon footprint</span><br>
+                    <span>Understand how your daily choices affect the environment</span><br>
+                    <span>Turn every sustainable action into measurable impact</span>
+                </div>
+            </div>
+            <div class="info-card" id="card2">
+                <h2>Choose Better,<br>Earn Carbon Credits</h2>
+                <div class="card-sub">
+                    <span>Walk, cycle, save energy and make greener choices</span><br>
+                    <span>Complete challenges and earn carbon credits</span><br>
+                    <span>Small actions today create a cleaner campus tomorrow</span>
+                </div>
+            </div>
+            <div class="info-card" id="card3">
+                <h2>Connect<br>Your Campus</h2>
+                <div class="card-sub">
+                    <span>Bring students, departments and institutions together</span><br>
+                    <span>Track energy, transport, food and other emission sources</span><br>
+                    <span>Compare progress through live sustainability dashboards</span>
+                </div>
+            </div>
+            <div class="info-card" id="card4">
+                <h2>Compete for<br>a Greener Future</h2>
+                <div class="card-sub">
+                    <span>See how your department ranks across campus</span><br>
+                    <span>Unlock rewards, coupons and sustainability milestones</span><br>
+                    <span>Every saved emission moves you higher on the leaderboard</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- CTA Button -->
+        <div id="cta-buttons">
+            <button class="cta-btn" id="btn-enter">Enter</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,374 @@
+﻿/* ============================================
+   PREMIUM DESKTOP UI - DESIGN SYSTEM
+   Instagram-Style Layout with Left Sidebar
+   ============================================ */
+
+/* ============================================
+   DESIGN TOKENS
+   ============================================ */
+:root {
+    /* Colors - Layered Dark Surface System */
+    --color-bg: #0B0F14;
+    --color-bg-surface: #11161D;
+    --color-bg-elevated: #161B22;
+    --color-bg-card: #161B22;
+
+    /* White Glow System */
+    --color-white: #ffffff;
+    --color-white-90: rgba(255, 255, 255, 0.9);
+    --color-white-70: rgba(255, 255, 255, 0.7);
+    --color-white-50: rgba(255, 255, 255, 0.5);
+    --color-white-30: rgba(255, 255, 255, 0.3);
+    --color-white-15: rgba(255, 255, 255, 0.15);
+    --color-white-08: rgba(255, 255, 255, 0.08);
+    --color-white-05: rgba(255, 255, 255, 0.05);
+
+    /* Accent Colors */
+    --color-accent-blue: rgba(100, 149, 237, 0.9);
+    --color-accent-red: rgba(220, 76, 76, 0.85);
+
+    /* Glass Effects */
+    --glass-bg: rgba(17, 22, 29, 0.92);
+    --glass-bg-light: rgba(22, 27, 34, 0.88);
+    --glass-border: rgba(255, 255, 255, 0.06);
+
+    /* Shadows & Glows */
+    --shadow-elevation-1: 0 2px 8px rgba(0, 0, 0, 0.4);
+    --shadow-elevation-2: 0 4px 16px rgba(0, 0, 0, 0.5);
+
+    /* Spacing Scale */
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-5: 20px;
+    --space-6: 24px;
+    --space-8: 32px;
+
+    /* Border Radius */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+    --radius-xl: 20px;
+    --radius-full: 50%;
+
+    /* Typography */
+    --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-display: 'Poppins', sans-serif;
+    --text-xs: 0.75rem;
+    --text-sm: 0.875rem;
+    --text-base: 1rem;
+    --text-lg: 1.125rem;
+    --text-xl: 1.25rem;
+    --text-2xl: 1.5rem;
+    --weight-medium: 500;
+    --weight-semibold: 600;
+    --weight-bold: 700;
+
+    /* Transitions */
+    --ease-apple: cubic-bezier(0.25, 0.1, 0.25, 1);
+    --ease-apple-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+    --ease-page: cubic-bezier(0.25, 0.1, 0.25, 1);
+    --spring-ease: cubic-bezier(0.175, 0.885, 0.32, 1.1);
+    --spring-soft: cubic-bezier(0.25, 0.1, 0.25, 1.0);
+    --spring-snappy: cubic-bezier(0.23, 1, 0.32, 1);
+    --duration-normal: 280ms;
+    --duration-page: 320ms;
+    --duration-expand: 380ms;
+    --duration-focus: 320ms;
+
+    /* Layout */
+    --sidebar-width: 244px;
+    --sidebar-collapsed-width: 72px;
+    --feed-max-width: 630px;
+    --chat-inbox-width: 300px;
+    --gap-feed-panel: 38px;
+}
+
+/* ============================================
+   BASE RESET
+   ============================================ */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: var(--font-primary);
+    background-color: var(--color-bg);
+    background-image: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(22, 27, 34, 0.7) 0%, transparent 70%);
+    color: var(--color-white-90);
+    line-height: 1.5;
+    overflow: hidden;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+button {
+    font-family: inherit;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+input {
+    font-family: inherit;
+    border: none;
+    background: none;
+    outline: none;
+    color: inherit;
+}
+
+
+/* ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+   LANDING LAYER ΓÇö Scroll-driven Earth page
+   ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ */
+
+/* Scroll Driver */
+#scroll-container {
+  height: 1000vh;
+  position: relative;
+}
+
+/* Fixed Overlay */
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  z-index: 10;
+}
+
+/* ΓöÇΓöÇ Landing Top-Right Navigation ΓöÇΓöÇ */
+#landing-nav {
+  position: fixed;
+  top: 28px;
+  right: 36px;
+  z-index: 20;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  pointer-events: auto;
+  animation: landingNavFadeIn 1s ease 0.3s both;
+}
+
+@keyframes landingNavFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.landing-nav-btn {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  padding: 9px 26px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.85);
+  border: 1.5px solid rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.landing-nav-btn:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+  color: #ffffff;
+  box-shadow: 0 0 16px rgba(255, 255, 255, 0.12);
+  transform: translateY(-1px);
+}
+
+.landing-nav-btn:active {
+  transform: translateY(0);
+}
+
+.landing-nav-btn--primary {
+  background: rgba(255, 255, 255, 0.95);
+  color: #0a0a0a;
+  border-color: transparent;
+}
+
+.landing-nav-btn--primary:hover {
+  background: #ffffff;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.4), 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-color: transparent;
+  color: #0a0a0a;
+}
+
+
+/* Three.js Canvas Container */
+#canvas-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 0;
+}
+
+#canvas-container canvas {
+  display: block;
+}
+
+/* Title Text */
+#title-text {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.15);
+  z-index: 1;
+  font-family: 'Bebas Neue', 'Inter', sans-serif;
+  font-size: clamp(2.5rem, 8vw, 7rem);
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0;
+  pointer-events: none;
+  will-change: transform, opacity;
+  text-align: center;
+  width: 90vw;
+  max-width: 900px;
+}
+
+/* Info Cards */
+#card-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  pointer-events: none;
+}
+
+#overlay .info-card {
+  position: absolute;
+  text-align: center;
+  opacity: 0;
+  padding: 0 24px;
+  max-width: 700px;
+  will-change: transform, opacity;
+}
+
+#overlay .info-card h2 {
+  font-size: 4.2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  color: #f0f0f0;
+  margin-bottom: 12px;
+}
+
+#overlay .card-sub {
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.3;
+  color: #a0a0a0;
+}
+
+#overlay .card-sub span {
+  display: inline;
+}
+
+/* CTA Buttons */
+#cta-buttons {
+  position: fixed;
+  bottom: 18vh;
+  left: 50%;
+  transform: translateX(-50%) translateY(24px);
+  z-index: 5;
+  display: flex;
+  gap: 20px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+#cta-buttons.active {
+  pointer-events: auto;
+}
+
+#overlay .cta-btn,
+#cta-buttons .cta-btn {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 14px 44px;
+  border: none;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #0a0a0a;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+  pointer-events: auto;
+}
+
+#overlay .cta-btn:hover,
+#cta-buttons .cta-btn:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.6), 0 0 40px rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+#overlay .cta-btn:active,
+#cta-buttons .cta-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.4);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  #landing-nav {
+    top: 18px;
+    right: 20px;
+  }
+
+  .landing-nav-btn {
+    padding: 8px 20px;
+    font-size: 0.8rem;
+  }
+
+  #overlay .info-card h2 {
+    font-size: clamp(2rem, 7vw, 3.2rem);
+  }
+
+  #overlay .card-sub {
+    font-size: 0.95rem;
+  }
+
+  #cta-buttons {
+    bottom: 12vh;
+  }
+
+  #overlay .cta-btn,
+  #cta-buttons .cta-btn {
+    padding: 12px 36px;
+    font-size: 0.9rem;
+  }
+}

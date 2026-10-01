@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="800" viewBox="0 0 1000 800">
+<defs>
+  <g id="dog" transform="translate(1,0)" stroke="#ffffff" fill="none" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="8" cy="6" rx="5.5" ry="3.2"/><circle cx="13.5" cy="4" r="2.8"/>
+    <path d="M12 2c-0.5-1.5-2.5-1-2.5 0.5s0.5 2 1.5 1.5"/>
+    <circle cx="14" cy="3.5" r="0.5" fill="#fff"/><ellipse cx="15.8" cy="4.2" rx="0.4" ry="0.3" fill="#fff"/>
+    <path d="M15 5c0 1 0.6 1.5 1.2 0.8"/><path d="M2.5 4c-1-2-2.5-3-3-1s0.5 3 1.5 2"/>
+    <line x1="10.5" y1="8.5" x2="10.5" y2="11.5"/><line x1="12" y1="8.5" x2="12.5" y2="11.5"/>
+    <line x1="5" y1="8.5" x2="4.5" y2="11.5"/><line x1="6.5" y1="8.5" x2="7" y2="11.5"/>
+    <circle cx="10.5" cy="11.8" r="0.35" fill="#fff"/><circle cx="12.5" cy="11.8" r="0.35" fill="#fff"/>
+    <circle cx="4.5" cy="11.8" r="0.35" fill="#fff"/><circle cx="7" cy="11.8" r="0.35" fill="#fff"/>
+  </g>
+  <g id="cat" transform="translate(0,1)" stroke="#ffffff" fill="none" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="8" cy="6" rx="5" ry="2.8"/><circle cx="13" cy="4.5" r="2.3"/>
+    <path d="M11.5 3l-0.8-3 2 1.5"/><path d="M14 3l0.8-3-2 1.5"/>
+    <circle cx="13.5" cy="4" r="0.4" fill="#fff"/><circle cx="14.8" cy="4.8" r="0.2" fill="#fff"/>
+    <line x1="15" y1="4.3" x2="17" y2="3.5"/><line x1="15" y1="5" x2="17" y2="5.5"/>
+    <path d="M3 5c-1.5-1-2.5-4-1.5-5.5s2.5 0 2 2"/>
+    <line x1="10" y1="8" x2="10" y2="11.5"/><line x1="11.5" y1="8" x2="11.5" y2="11.5"/>
+    <line x1="5" y1="8" x2="5" y2="11.5"/><line x1="6.5" y1="8" x2="6.5" y2="11.5"/>
+    <circle cx="10" cy="11.8" r="0.3" fill="#fff"/><circle cx="11.5" cy="11.8" r="0.3" fill="#fff"/>
+    <circle cx="5" cy="11.8" r="0.3" fill="#fff"/><circle cx="6.5" cy="11.8" r="0.3" fill="#fff"/>
+  </g>
+  <g id="sun" stroke="#ffffff" fill="none" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="6" cy="6" r="4"/><circle cx="4.5" cy="5.2" r="0.4" fill="#fff"/><circle cx="7.5" cy="5.2" r="0.4" fill="#fff"/>
+    <path d="M4.5 7.5c0.5 1 2.5 1 3 0"/>
+    <line x1="6" y1="0" x2="6" y2="1.5"/><line x1="6" y1="10.5" x2="6" y2="12"/>
+    <line x1="0" y1="6" x2="1.5" y2="6"/><line x1="10.5" y1="6" x2="12" y2="6"/>
+    <line x1="1.8" y1="1.8" x2="2.8" y2="2.8"/><line x1="10.2" y1="1.8" x2="9.2" y2="2.8"/>
+    <line x1="1.8" y1="10.2" x2="2.8" y2="9.2"/><line x1="10.2" y1="10.2" x2="9.2" y2="9.2"/>
+  </g>
+  <g id="moon" stroke="#ffffff" fill="none" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 0a7 7 0 1 0 0 14A5.5 5.5 0 0 1 8 0z"/>
+    <path d="M4 6c0.3-0.4 0.8-0.4 1.2 0"/><path d="M3.5 8c0.3 0.5 1.2 0.5 1.5 0"/>
+    <polygon points="10,2 10.5,3.2 11.8,3.2 10.7,4 11,5.2 10,4.5 9,5.2 9.3,4 8.2,3.2 9.5,3.2" fill="#fff" opacity="0.4"/>
+  </g>
+  <g id="soccer" stroke="#ffffff" fill="none" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="7" cy="7" r="7"/><polygon points="7,3 9.5,4.5 9,7.5 5,7.5 4.5,4.5"/>
+    <line x1="7" y1="3" x2="7" y2="0"/><line x1="9.5" y1="4.5" x2="13" y2="2.5"/>
+    <line x1="9" y1="7.5" x2="13" y2="10"/><line x1="5" y1="7.5" x2="1" y2="10"/><line x1="4.5" y1="4.5" x2="1" y2="2.5"/>
+    <circle cx="6" cy="5.5" r="0.3" fill="#fff"/><circle cx="8" cy="5.5" r="0.3" fill="#fff"/>
+    <path d="M6.2 6.5c0.3 0.4 1.3 0.4 1.6 0"/>
+  </g>
+  <g id="skateboard" stroke="#ffffff" fill="none" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M2 2.5C0.5 2-0.5 2.5 0 4l1 1c0.5 0.5 1.5 0.5 2 0h10c0.5 0.5 1.5 0.5 2 0l1-1c0.5-1.5-0.5-2-2-1.5z"/>
+    <circle cx="3.5" cy="6.5" r="1.5"/><circle cx="12.5" cy="6.5" r="1.5"/>
+    <circle cx="3.5" cy="6.5" r="0.3" fill="#fff"/><circle cx="12.5" cy="6.5" r="0.3" fill="#fff"/>
+    <polygon points="8,1 8.5,2.5 10,2.5 8.8,3.3 9.2,4.8 8,4 6.8,4.8 7.2,3.3 6,2.5 7.5,2.5" fill="#fff" opacity="0.3"/>
+  </g>
+  <g id="tree" stroke="#ffffff" fill="none" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round">
+    <polygon points="6,0 6.5,1.5 8,1.5 6.8,2.3 7.2,3.5 6,2.7 4.8,3.5 5.2,2.3 4,1.5 5.5,1.5" fill="#fff" opacity="0.4"/>
+    <polygon points="6,2.5 10,6 2,6"/><polygon points="6,4.5 11,9 1,9"/><polygon points="6,7 12,12 0,12"/>
+    <rect x="4.5" y="12" width="3" height="2" rx="0.4"/>
+    <circle cx="4.5" cy="6.5" r="0.4" fill="#fff"/><circle cx="7.5" cy="8.5" r="0.4" fill="#fff"/>
+    <circle cx="3.5" cy="10.5" r="0.4" fill="#fff"/><circle cx="8" cy="11" r="0.4" fill="#fff"/>
+  </g>
+  <g id="camera" stroke="#ffffff" fill="none" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="2" width="14" height="9" rx="2"/><path d="M4 2l1-2h4l1 2"/>
+    <circle cx="7" cy="7" r="3.2"/><circle cx="7" cy="7" r="1.8"/><circle cx="7" cy="7" r="0.4" fill="#fff"/>
+    <circle cx="11.5" cy="4" r="0.6" fill="#fff" opacity="0.4"/><circle cx="11" cy="1.5" r="0.5"/>
+  </g>
+  <g id="factory" transform="translate(0,4)" stroke="#ffffff" fill="none" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="2" y="4" width="12" height="10" rx="0.6"/><rect x="0" y="0" width="3" height="14" rx="0.3"/>
+    <rect x="13" y="6" width="3" height="8" rx="0.3"/>
+    <rect x="5" y="6" width="2.5" height="2.5" rx="0.2"/><rect x="9" y="6" width="2.5" height="2.5" rx="0.2"/>
+    <rect x="6" y="11" width="4" height="3" rx="0.3"/><circle cx="8" cy="12" r="0.3" fill="#fff"/>
+    <path d="M1.5 0c0 0-0.4-1.2 0-2s0.8-0.4 0.5-2" opacity="0.5"/>
+    <path d="M14.5 6c0 0-0.3-1.2 0.1-2s0.6-0.4 0.4-2" opacity="0.5"/>
+  </g>
+  <g id="cup" transform="translate(0,3)" stroke="#ffffff" fill="none" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M1 3h10v6c0 1.5-1 2.5-2.5 2.5h-5C2 11.5 1 10.5 1 9V3z"/>
+    <path d="M11 4.5c1.5 0 2.5 0.8 2.5 2s-1 2-2.5 2"/>
+    <ellipse cx="6" cy="12.5" rx="5" ry="0.8" opacity="0.4"/>
+    <path d="M3 1.5c0-1 0.5-1.8 0.7-2.3" opacity="0.5"/>
+    <path d="M6 1c0-1 0.3-1.8 0.4-2.5" opacity="0.5"/>
+    <path d="M9 1.5c0-1 0.5-1.8 0.7-2.3" opacity="0.5"/>
+    <circle cx="4" cy="6.5" r="0.3" fill="#fff"/><circle cx="8" cy="6.5" r="0.3" fill="#fff"/>
+    <path d="M4.5 8c0.4 0.5 2.6 0.5 3 0"/>
+  </g>
+  <g id="balloon" stroke="#ffffff" fill="none" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="4" cy="5" rx="3.8" ry="5"/>
+    <path d="M2.8 3c-0.3-0.5-0.2-1.2 0.3-1.5" opacity="0.4"/>
+    <path d="M3 10l1 1-1 0.3"/><path d="M3.5 11c0.3 1.5-0.5 3-0.2 4.5s0.8 1.5 0.3 3"/>
+    <circle cx="4" cy="3.5" r="0.3" fill="#fff"/><circle cx="5" cy="3.5" r="0.3" fill="#fff"/>
+    <path d="M3.8 5.5c0.2 0.3 0.8 0.3 1 0"/>
+  </g>
+  <g id="boy" transform="translate(1,1)" stroke="#ffffff" fill="none" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="5" cy="4" r="3.5"/><path d="M2 2.5c0.3-1.5 1.5-3 3-3.2s3 1.2 3.3 2.8"/>
+    <circle cx="4" cy="4" r="0.4" fill="#fff"/><circle cx="6" cy="4" r="0.4" fill="#fff"/>
+    <path d="M4 5.8c0.3 0.5 1.7 0.5 2 0"/><line x1="5" y1="7.5" x2="5" y2="9"/>
+    <path d="M1.5 10c0.8-1.5 2.2-2 3.5-2s2.7 0.5 3.5 2"/>
+    <rect x="1.5" y="10" width="7" height="4.5" rx="0.8"/><line x1="5" y1="10" x2="5" y2="14.5"/>
+    <path d="M1.5 12h-1.2l-0.3 2"/><path d="M8.5 12h1.2l0.3 2"/>
+  </g>
+  <g id="girl" transform="translate(1,1)" stroke="#ffffff" fill="none" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="5" cy="4" r="3.5"/>
+    <path d="M1.5 3c-0.3 1-0.5 3 0 5s0 3-0.5 4.5"/>
+    <path d="M8.5 3c0.3 1 0.5 3 0 5s0 3 0.5 4.5"/>
+    <path d="M2 2c0.5-1.5 1.8-2.8 3-2.8s2.5 1.3 3 2.8"/>
+    <circle cx="4" cy="4" r="0.4" fill="#fff"/><circle cx="6" cy="4" r="0.4" fill="#fff"/>
+    <path d="M4 5.8c0.3 0.5 1.7 0.5 2 0"/><line x1="5" y1="7.5" x2="5" y2="9"/>
+    <path d="M1.5 10c0.8-1.5 2.2-2 3.5-2s2.7 0.5 3.5 2"/>
+    <path d="M1.5 10l-0.3 4.5h7.6l-0.3-4.5"/>
+    <path d="M1.2 12h-1l-0.4 2"/><path d="M8.8 12h1l0.4 2"/>
+  </g>
+  <g id="shrimp" transform="translate(2,0)" stroke="#ffffff" fill="none" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M13 3c1 0 2-0.5 2.5-1.5"/><path d="M13 2.5c1.2 0.5 2 0 2.8-0.8"/>
+    <circle cx="14.5" cy="3.5" r="1.8"/><circle cx="15" cy="3.2" r="0.35" fill="#fff"/>
+    <path d="M13 4c-1 1-3 2-5 2.5s-4 0.5-5.5-0.5c-1-0.7-1.5-1.5-1-2.5s1.5-1.2 2.5-0.8"/>
+    <path d="M1.5 3.5c-1-0.2-1.8 0.3-1.5 1"/>
+    <path d="M0 5l-0.3 1.2"/><path d="M0.5 4.5l-0.8 1"/>
+    <path d="M9 5.5l-0.2 1.2"/><path d="M7 6l-0.2 1.2"/><path d="M5 6.2l-0.2 1"/>
+  </g>
+  <g id="guitar" transform="translate(0,2)" stroke="#ffffff" fill="none" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="5" cy="12" rx="4.5" ry="3.5"/><ellipse cx="5" cy="7.5" rx="3" ry="2.5"/>
+    <circle cx="5" cy="12" r="1.5"/><circle cx="5" cy="12" r="0.25" fill="#fff"/>
+    <rect x="4" y="0" width="2" height="5.5" rx="0.2"/>
+    <rect x="3.5" y="-1.5" width="3" height="1.8" rx="0.4"/>
+    <circle cx="3.8" cy="-0.8" r="0.25" fill="#fff"/><circle cx="6.2" cy="-0.8" r="0.25" fill="#fff"/>
+    <line x1="4.3" y1="0" x2="4.3" y2="14.5" opacity="0.25"/>
+    <line x1="5" y1="0" x2="5" y2="14.5" opacity="0.25"/>
+    <line x1="5.7" y1="0" x2="5.7" y2="14.5" opacity="0.25"/>
+  </g>
+</defs>
+<use href="#dog" transform="translate(453,332) rotate(0) scale(12)" opacity="0.13"/>
+<use href="#sun" transform="translate(280,405) rotate(5) scale(14)" opacity="0.17"/>
+<use href="#tree" transform="translate(130,395) rotate(2) scale(12)" opacity="0.14"/>
+<use href="#sun" transform="translate(674,186) rotate(-4) scale(12)" opacity="0.15"/>
+<use href="#dog" transform="translate(622,494) rotate(8) scale(8)" opacity="0.12"/>
+<use href="#cup" transform="translate(207,261) rotate(6) scale(8)" opacity="0.17"/>
+<use href="#cat" transform="translate(479,494) rotate(0) scale(8)" opacity="0.13"/>
+<use href="#soccer" transform="translate(427,604) rotate(6) scale(8)" opacity="0.16"/>
+<use href="#shrimp" transform="translate(39,569) rotate(7) scale(8)" opacity="0.12"/>
+<use href="#tree" transform="translate(777,335) rotate(-5) scale(8)" opacity="0.16"/>
+<use href="#camera" transform="translate(823,217) rotate(3) scale(8)" opacity="0.15"/>
+<use href="#sun" transform="translate(174,159) rotate(-8) scale(8)" opacity="0.17"/>
+<use href="#factory" transform="translate(647,91) rotate(1) scale(5)" opacity="0.13"/>
+<use href="#factory" transform="translate(860,453) rotate(7) scale(5)" opacity="0.16"/>
+<use href="#dog" transform="translate(733,28) rotate(-5) scale(5)" opacity="0.16"/>
+<use href="#dog" transform="translate(829,28) rotate(4) scale(5)" opacity="0.14"/>
+<use href="#cup" transform="translate(573,186) rotate(7) scale(5)" opacity="0.13"/>
+<use href="#cup" transform="translate(879,314) rotate(-6) scale(5)" opacity="0.15"/>
+<use href="#cat" transform="translate(279,578) rotate(4) scale(5)" opacity="0.15"/>
+<use href="#cat" transform="translate(765,604) rotate(2) scale(5)" opacity="0.15"/>
+<use href="#soccer" transform="translate(49,646) rotate(4) scale(5)" opacity="0.15"/>
+<use href="#soccer" transform="translate(415,257) rotate(-1) scale(5)" opacity="0.16"/>
+<use href="#boy" transform="translate(185,647) rotate(3) scale(5)" opacity="0.15"/>
+<use href="#boy" transform="translate(924,57) rotate(-6) scale(5)" opacity="0.13"/>
+<use href="#guitar" transform="translate(74,452) rotate(0) scale(5)" opacity="0.16"/>
+<use href="#guitar" transform="translate(772,463) rotate(4) scale(5)" opacity="0.15"/>
+<use href="#girl" transform="translate(823,116) rotate(-3) scale(5)" opacity="0.15"/>
+<use href="#girl" transform="translate(712,400) rotate(-5) scale(5)" opacity="0.14"/>
+<use href="#shrimp" transform="translate(884,160) rotate(-1) scale(5)" opacity="0.16"/>
+<use href="#shrimp" transform="translate(83,344) rotate(5) scale(5)" opacity="0.15"/>
+<use href="#moon" transform="translate(380,181) rotate(-1) scale(5)" opacity="0.14"/>
+<use href="#tree" transform="translate(698,604) rotate(-4) scale(5)" opacity="0.17"/>
+<use href="#moon" transform="translate(742,111) rotate(7) scale(5)" opacity="0.16"/>
+<use href="#tree" transform="translate(628,16) rotate(1) scale(5)" opacity="0.12"/>
+<use href="#camera" transform="translate(445,154) rotate(8) scale(5)" opacity="0.14"/>
+<use href="#camera" transform="translate(7,361) rotate(-2) scale(5)" opacity="0.13"/>
+<use href="#sun" transform="translate(9,296) rotate(0) scale(5)" opacity="0.16"/>
+<use href="#balloon" transform="translate(369,85) rotate(-5) scale(5)" opacity="0.15"/>
+<use href="#sun" transform="translate(165,733) rotate(-7) scale(5)" opacity="0.15"/>
+<use href="#balloon" transform="translate(9,473) rotate(-2) scale(5)" opacity="0.15"/>
+<use href="#skateboard" transform="translate(341,710) rotate(4) scale(5)" opacity="0.14"/>
+<use href="#skateboard" transform="translate(508,272) rotate(3) scale(5)" opacity="0.14"/>
+<use href="#factory" transform="translate(302,650) rotate(-3) scale(3)" opacity="0.14"/>
+<use href="#factory" transform="translate(694,340) rotate(-2) scale(3)" opacity="0.13"/>
+<use href="#factory" transform="translate(520,722) rotate(0) scale(3)" opacity="0.17"/>
+<use href="#dog" transform="translate(147,275) rotate(-6) scale(3)" opacity="0.16"/>
+<use href="#dog" transform="translate(449,721) rotate(-5) scale(3)" opacity="0.15"/>
+<use href="#dog" transform="translate(615,281) rotate(8) scale(3)" opacity="0.15"/>
+<use href="#cup" transform="translate(368,296) rotate(7) scale(3)" opacity="0.15"/>
+<use href="#cup" transform="translate(321,43) rotate(0) scale(3)" opacity="0.13"/>
+<use href="#cup" transform="translate(250,703) rotate(5) scale(3)" opacity="0.15"/>
+<use href="#cat" transform="translate(363,360) rotate(-6) scale(3)" opacity="0.15"/>
+<use href="#cat" transform="translate(100,231) rotate(-6) scale(3)" opacity="0.12"/>
+<use href="#cat" transform="translate(818,559) rotate(6) scale(3)" opacity="0.13"/>
+<use href="#soccer" transform="translate(581,43) rotate(0) scale(3)" opacity="0.12"/>
+<use href="#soccer" transform="translate(273,93) rotate(7) scale(3)" opacity="0.15"/>
+<use href="#soccer" transform="translate(78,184) rotate(2) scale(3)" opacity="0.16"/>
+<use href="#boy" transform="translate(255,648) rotate(3) scale(3)" opacity="0.14"/>
+<use href="#boy" transform="translate(544,669) rotate(1) scale(3)" opacity="0.16"/>
+<use href="#boy" transform="translate(540,66) rotate(-2) scale(3)" opacity="0.14"/>
+<use href="#guitar" transform="translate(611,120) rotate(7) scale(3)" opacity="0.15"/>
+<use href="#guitar" transform="translate(345,198) rotate(4) scale(3)" opacity="0.17"/>
+<use href="#guitar" transform="translate(677,402) rotate(2) scale(3)" opacity="0.16"/>
+<use href="#girl" transform="translate(946,469) rotate(-1) scale(3)" opacity="0.14"/>
+<use href="#girl" transform="translate(136,154) rotate(-7) scale(3)" opacity="0.17"/>
+<use href="#girl" transform="translate(579,615) rotate(-2) scale(3)" opacity="0.17"/>
+<use href="#shrimp" transform="translate(811,674) rotate(-2) scale(3)" opacity="0.14"/>
+<use href="#shrimp" transform="translate(521,129) rotate(4) scale(3)" opacity="0.13"/>
+<use href="#shrimp" transform="translate(874,691) rotate(1) scale(3)" opacity="0.16"/>
+<use href="#moon" transform="translate(947,523) rotate(-4) scale(3)" opacity="0.13"/>
+<use href="#tree" transform="translate(927,406) rotate(-4) scale(3)" opacity="0.14"/>
+<use href="#moon" transform="translate(501,18) rotate(-3) scale(3)" opacity="0.15"/>
+<use href="#tree" transform="translate(385,616) rotate(-4) scale(3)" opacity="0.15"/>
+<use href="#moon" transform="translate(924,1) rotate(2) scale(3)" opacity="0.14"/>
+<use href="#tree" transform="translate(478,65) rotate(-7) scale(3)" opacity="0.16"/>
+<use href="#camera" transform="translate(275,210) rotate(2) scale(3)" opacity="0.16"/>
+<use href="#camera" transform="translate(586,670) rotate(-7) scale(3)" opacity="0.15"/>
+<use href="#camera" transform="translate(387,755) rotate(-4) scale(3)" opacity="0.14"/>
+<use href="#sun" transform="translate(16,422) rotate(6) scale(3)" opacity="0.14"/>
+<use href="#balloon" transform="translate(874,724) rotate(6) scale(3)" opacity="0.16"/>
+<use href="#sun" transform="translate(79,303) rotate(2) scale(3)" opacity="0.15"/>
+<use href="#balloon" transform="translate(830,463) rotate(6) scale(3)" opacity="0.16"/>
+<use href="#sun" transform="translate(40,232) rotate(0) scale(3)" opacity="0.12"/>
+<use href="#balloon" transform="translate(235,588) rotate(-2) scale(3)" opacity="0.13"/>
+<use href="#skateboard" transform="translate(695,679) rotate(-6) scale(3)" opacity="0.16"/>
+<use href="#skateboard" transform="translate(424,99) rotate(-2) scale(3)" opacity="0.12"/>
+<use href="#skateboard" transform="translate(932,661) rotate(-1) scale(3)" opacity="0.17"/>
+</svg>
