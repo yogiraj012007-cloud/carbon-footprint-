@@ -390,9 +390,7 @@ document.addEventListener("DOMContentLoaded", function () {
      * Directs user to the external/separate login page.
      */
     function handleEnter() {
-        console.log('Enter clicked — proceeding to login page');
-        // Redirect to your login page:
-        // window.location.href = 'login.html';
+        window.location.href = 'https://mycarbonfootprint-peach.vercel.app/';
     }
 
     // Expose globally so external scripts/handlers can hook into it
